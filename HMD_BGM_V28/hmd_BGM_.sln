@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMD_BGM", "GSM2.0\HMD_BGM.csproj", "{102C5AA3-47FC-4A02-B0E8-1A5AEB8462E2}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BGM", "Setup1\Setup1.vdproj", "{DE91750A-BDCA-4810-A756-8C6798709A8A}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.2.47:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Setup1\\Setup1.vdproj
+		SccProjectName1 = Setup1
+		SccLocalPath1 = Setup1
+		SccProjectUniqueName2 = GSM2.0\\HMD_BGM.csproj
+		SccProjectName2 = GSM2.0
+		SccLocalPath2 = GSM2.0
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{102C5AA3-47FC-4A02-B0E8-1A5AEB8462E2}.Debug|x86.ActiveCfg = Debug|x86
+		{102C5AA3-47FC-4A02-B0E8-1A5AEB8462E2}.Debug|x86.Build.0 = Debug|x86
+		{102C5AA3-47FC-4A02-B0E8-1A5AEB8462E2}.Release|x86.ActiveCfg = Release|x86
+		{102C5AA3-47FC-4A02-B0E8-1A5AEB8462E2}.Release|x86.Build.0 = Release|x86
+		{DE91750A-BDCA-4810-A756-8C6798709A8A}.Debug|x86.ActiveCfg = Debug
+		{DE91750A-BDCA-4810-A756-8C6798709A8A}.Debug|x86.Build.0 = Debug
+		{DE91750A-BDCA-4810-A756-8C6798709A8A}.Release|x86.ActiveCfg = Release
+		{DE91750A-BDCA-4810-A756-8C6798709A8A}.Release|x86.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddNewUser" xml:space="preserve">
+    <value>新增使用者</value>
+  </data>
+  <data name="BloodGlucoseManagementProgramVer" xml:space="preserve">
+    <value>血糖管理 V2.8</value>
+  </data>
+  <data name="btnSave" xml:space="preserve">
+    <value>存檔</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="CheckingPassword" xml:space="preserve">
+    <value>確認密碼</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>登入</value>
+  </data>
+  <data name="Menu_About" xml:space="preserve">
+    <value>關於</value>
+  </data>
+  <data name="Menu_ALLGraph" xml:space="preserve">
+    <value>所有圖表</value>
+  </data>
+  <data name="Menu_CurveGraphACPC" xml:space="preserve">
+    <value>曲線圖(AC &amp; PC)</value>
+  </data>
+  <data name="Menu_DataList" xml:space="preserve">
+    <value>血糖值明細</value>
+  </data>
+  <data name="Menu_DayGroup" xml:space="preserve">
+    <value>日趨勢圖</value>
+  </data>
+  <data name="Menu_DayList" xml:space="preserve">
+    <value>日明細表</value>
+  </data>
+  <data name="Menu_DistributionGroup" xml:space="preserve">
+    <value>群組圖</value>
+  </data>
+  <data name="Menu_DownloadMeterReadings" xml:space="preserve">
+    <value>上傳血糖值</value>
+  </data>
+  <data name="Menu_Exit" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="Menu_GlucoseAnalysisColumnGraph" xml:space="preserve">
+    <value>直線圖</value>
+  </data>
+  <data name="Menu_Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="Menu_Main" xml:space="preserve">
+    <value>管理</value>
+  </data>
+  <data name="Menu_Meter" xml:space="preserve">
+    <value>血糖</value>
+  </data>
+  <data name="Menu_Print" xml:space="preserve">
+    <value>列印</value>
+  </data>
+  <data name="Menu_PrintPreview" xml:space="preserve">
+    <value>預覽列印</value>
+  </data>
+  <data name="Menu_PrintSetup" xml:space="preserve">
+    <value>列印設定</value>
+  </data>
+  <data name="Menu_Report" xml:space="preserve">
+    <value>報表</value>
+  </data>
+  <data name="Menu_SettingUser" xml:space="preserve">
+    <value>血糖機與帳號管理</value>
+  </data>
+  <data name="Menu_TrendGroup" xml:space="preserve">
+    <value>趨勢圖</value>
+  </data>
+  <data name="Menu_WeekGroup" xml:space="preserve">
+    <value>週趨勢圖</value>
+  </data>
+  <data name="MerterUID" xml:space="preserve">
+    <value>序號</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>密碼</value>
+  </data>
+  <data name="ToolTip_CurveGraphAC" xml:space="preserve">
+    <value>曲線圖(AC)</value>
+  </data>
+  <data name="ToolTip_CurveGraphBreakfastAC" xml:space="preserve">
+    <value>曲線圖(B-AC)</value>
+  </data>
+  <data name="ToolTip_CurveGraphBreakfastPC" xml:space="preserve">
+    <value>曲線圖(B-PC)</value>
+  </data>
+  <data name="ToolTip_CurveGraphDinnerAC" xml:space="preserve">
+    <value>曲線圖(D-AC)</value>
+  </data>
+  <data name="ToolTip_CurveGraphDinnerPC" xml:space="preserve">
+    <value>曲線圖(D-PC)</value>
+  </data>
+  <data name="ToolTip_CurveGraphLunchAC" xml:space="preserve">
+    <value>曲線圖(L-AC)</value>
+  </data>
+  <data name="ToolTip_CurveGraphLunchPC" xml:space="preserve">
+    <value>曲線圖(L-PC)</value>
+  </data>
+  <data name="ToolTip_CurveGraphPC" xml:space="preserve">
+    <value>曲線圖(PC)</value>
+  </data>
+  <data name="ToolTip_Home" xml:space="preserve">
+    <value>回主頁</value>
+  </data>
+  <data name="UserID" xml:space="preserve">
+    <value>帳號</value>
+  </data>
+  <data name="UserLogin" xml:space="preserve">
+    <value>使用者登入</value>
+  </data>
+  <data name="LimiteInferior" xml:space="preserve">
+    <value>低警戒值</value>
+  </data>
+  <data name="LowerNormal" xml:space="preserve">
+    <value>低參考值</value>
+  </data>
+  <data name="MeterID" xml:space="preserve">
+    <value>血糖機</value>
+  </data>
+  <data name="SettingUserComm" xml:space="preserve">
+    <value>請設定血糖正常和警戒值，並按下存檔鈕</value>
+  </data>
+  <data name="SettingUserGroupComm" xml:space="preserve">
+    <value>血糖值正常和警戒設置</value>
+  </data>
+  <data name="Uperlimit" xml:space="preserve">
+    <value>高警戒值</value>
+  </data>
+  <data name="UperNormal" xml:space="preserve">
+    <value>高參考值</value>
+  </data>
+  <data name="DownloadMeterReadingsComm" xml:space="preserve">
+    <value>請插上血糖機，此操作將載入你的血糖值。</value>
+  </data>
+  <data name="ReadingMassage" xml:space="preserve">
+    <value>讀取狀態</value>
+  </data>
+  <data name="StartReading" xml:space="preserve">
+    <value>下載</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>Step1</value>
+  </data>
+  <data name="Step1Comm" xml:space="preserve">
+    <value>將血糖機與傳輸線插入到您的電腦。</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>Step2</value>
+  </data>
+  <data name="Step2Comm" xml:space="preserve">
+    <value>等待幾秒後，血糖機將開啟，並且畫面的傳輸鈕也跟著開啟。</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>Step3</value>
+  </data>
+  <data name="Step3Comm" xml:space="preserve">
+    <value>傳輸資料完成，可查看報表。</value>
+  </data>
+  <data name="Connection" xml:space="preserve">
+    <value>已連線</value>
+  </data>
+  <data name="ConnectionIn" xml:space="preserve">
+    <value>連線中</value>
+  </data>
+  <data name="ConnectionTest" xml:space="preserve">
+    <value>連線測試</value>
+  </data>
+  <data name="DATADOWNLOADING" xml:space="preserve">
+    <value>資料下載</value>
+  </data>
+  <data name="DATADOWNLOADING2" xml:space="preserve">
+    <value>資料已經下載</value>
+  </data>
+  <data name="DOWNLOADINGOK" xml:space="preserve">
+    <value>下載完成</value>
+  </data>
+  <data name="OFFLINE" xml:space="preserve">
+    <value>OFFLINE</value>
+  </data>
+  <data name="ACorPC" xml:space="preserve">
+    <value>AC/PC</value>
+  </data>
+  <data name="DateTime" xml:space="preserve">
+    <value>日期時間</value>
+  </data>
+  <data name="TestNo" xml:space="preserve">
+    <value>序號</value>
+  </data>
+  <data name="TheBloodGlucoseUnit" xml:space="preserve">
+    <value>mg/dl</value>
+  </data>
+  <data name="ChartAllAC" xml:space="preserve">
+    <value>ALL AC</value>
+  </data>
+  <data name="ChartAllPC" xml:space="preserve">
+    <value>ALL PC</value>
+  </data>
+  <data name="ChartAverageValue" xml:space="preserve">
+    <value>平均值:</value>
+  </data>
+  <data name="ChartBAC" xml:space="preserve">
+    <value>B-AC</value>
+  </data>
+  <data name="ChartBPC" xml:space="preserve">
+    <value>B-PC</value>
+  </data>
+  <data name="ChartDAC" xml:space="preserve">
+    <value>D-AC</value>
+  </data>
+  <data name="ChartDPC" xml:space="preserve">
+    <value>D-PC</value>
+  </data>
+  <data name="ChartHighestValue" xml:space="preserve">
+    <value>高值:</value>
+  </data>
+  <data name="ChartLAC" xml:space="preserve">
+    <value>L-AC</value>
+  </data>
+  <data name="ChartLowestValue" xml:space="preserve">
+    <value>低值:</value>
+  </data>
+  <data name="ChartLPC" xml:space="preserve">
+    <value>L-PC</value>
+  </data>
+  <data name="ChartNormal" xml:space="preserve">
+    <value>正常</value>
+  </data>
+  <data name="ChartTestTotal" xml:space="preserve">
+    <value>Test Total:</value>
+  </data>
+  <data name="ChartTitle2" xml:space="preserve">
+    <value>血糖值分析直條圖</value>
+  </data>
+  <data name="ChartXaxis" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="ChartXaxis2" xml:space="preserve">
+    <value>血糖值 mg/dL</value>
+  </data>
+  <data name="ChartYaxis" xml:space="preserve">
+    <value>血糖值</value>
+  </data>
+  <data name="checkboxBAC" xml:space="preserve">
+    <value>早餐飯前</value>
+  </data>
+  <data name="checkboxBPC" xml:space="preserve">
+    <value>早餐飯後</value>
+  </data>
+  <data name="checkboxDAC" xml:space="preserve">
+    <value>晚餐飯前</value>
+  </data>
+  <data name="checkboxDPC" xml:space="preserve">
+    <value>晚餐飯後</value>
+  </data>
+  <data name="checkboxLAC" xml:space="preserve">
+    <value>午餐飯前</value>
+  </data>
+  <data name="checkboxLPC" xml:space="preserve">
+    <value>午餐飯後</value>
+  </data>
+  <data name="chekboxAllAC" xml:space="preserve">
+    <value>所有飯前</value>
+  </data>
+  <data name="chekboxAllPC" xml:space="preserve">
+    <value>所有飯後</value>
+  </data>
+  <data name="Dayofweek" xml:space="preserve">
+    <value>星期</value>
+  </data>
+  <data name="friday" xml:space="preserve">
+    <value>星期五</value>
+  </data>
+  <data name="lblACAverageValue" xml:space="preserve">
+    <value>飯前平均值:</value>
+  </data>
+  <data name="lblAChighestValue" xml:space="preserve">
+    <value>飯前高值:</value>
+  </data>
+  <data name="lblACLowestValue" xml:space="preserve">
+    <value>飯前低值:</value>
+  </data>
+  <data name="lblAllAC" xml:space="preserve">
+    <value>所有飯前:</value>
+  </data>
+  <data name="lblAllPC" xml:space="preserve">
+    <value>所有飯後:</value>
+  </data>
+  <data name="lblPCAverageValue" xml:space="preserve">
+    <value>飯後平均值:</value>
+  </data>
+  <data name="lblPChighestValue" xml:space="preserve">
+    <value>飯後高值:</value>
+  </data>
+  <data name="lblPCLowestValue" xml:space="preserve">
+    <value>飯後低值:</value>
+  </data>
+  <data name="lblReportDate" xml:space="preserve">
+    <value>報表日期:</value>
+  </data>
+  <data name="lblVISIBLE" xml:space="preserve">
+    <value>顯示:</value>
+  </data>
+  <data name="monday" xml:space="preserve">
+    <value>星期一</value>
+  </data>
+  <data name="NoData" xml:space="preserve">
+    <value>無資料!</value>
+  </data>
+  <data name="OutTheLimit" xml:space="preserve">
+    <value>超出警戒值</value>
+  </data>
+  <data name="OutTheNormal" xml:space="preserve">
+    <value>超出參考值</value>
+  </data>
+  <data name="saturday" xml:space="preserve">
+    <value>星期六</value>
+  </data>
+  <data name="sunday" xml:space="preserve">
+    <value>星期天</value>
+  </data>
+  <data name="TestT" xml:space="preserve">
+    <value>TestT</value>
+  </data>
+  <data name="thursday" xml:space="preserve">
+    <value>星期四</value>
+  </data>
+  <data name="tuesday" xml:space="preserve">
+    <value>星期二</value>
+  </data>
+  <data name="wednesday" xml:space="preserve">
+    <value>星期三</value>
+  </data>
+  <data name="langEnglish" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="langPortuguese" xml:space="preserve">
+    <value>português</value>
+  </data>
+  <data name="langTraditionalChinese" xml:space="preserve">
+    <value>繁體中文</value>
+  </data>
+  <data name="Languages" xml:space="preserve">
+    <value>語言</value>
+  </data>
+  <data name="btnMeterReadings" xml:space="preserve">
+    <value>上傳血糖值</value>
+  </data>
+  <data name="btnReports" xml:space="preserve">
+    <value>報表</value>
+  </data>
+  <data name="firstFormComm1" xml:space="preserve">
+    <value>感謝使用GlucoLeader血糖管理計劃軟體。</value>
+  </data>
+  <data name="firstFormComm2" xml:space="preserve">
+    <value>此軟體將傳輸、儲存血糖值到您的個人電腦裡，只需透過USB電纜將血糖機和電腦連接。</value>
+  </data>
+  <data name="firstFormComm3" xml:space="preserve">
+    <value>只要將您的血糖機數據傳輸到您的電腦裡，即可透過各種圖表，查看和分析您的血糖結果。</value>
+  </data>
+  <data name="firstFormComm4" xml:space="preserve">
+    <value>此軟體目的在於支持糖尿病的管理，以協助人們與糖尿病病患，以及提供相關的資料給醫護人員，是在家庭使用和臨床設置的審查員。</value>
+  </data>
+  <data name="firstFormComm5" xml:space="preserve">
+    <value>如果對GlucoLeader有任何的疑問，請透過電子郵件與我們連絡。</value>
+  </data>
+  <data name="firstFormComm6" xml:space="preserve">
+    <value>service@hmdbio.com</value>
+  </data>
+  <data name="firstFormToptic" xml:space="preserve">
+    <value>血糖管理計劃軟體</value>
+  </data>
+  <data name="aboutFormToptic" xml:space="preserve">
+    <value>血糖管理計劃軟體</value>
+  </data>
+  <data name="UserBirthday" xml:space="preserve">
+    <value>生日</value>
+  </data>
+  <data name="UserGender" xml:space="preserve">
+    <value>性別</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>名字</value>
+  </data>
+  <data name="PersonDataClear" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="PersonDataSave" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+</root>

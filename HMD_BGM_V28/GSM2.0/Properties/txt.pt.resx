@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddNewUser" xml:space="preserve">
+    <value>Adicionar Novo patient</value>
+  </data>
+  <data name="BloodGlucoseManagementProgramVer" xml:space="preserve">
+    <value>Programa de Monitoramento de Glicemia V2.8 [Bem vindo!]</value>
+  </data>
+  <data name="btnSave" xml:space="preserve">
+    <value>SALVAR</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CheckingPassword" xml:space="preserve">
+    <value>Confirmar Senha</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Menu_About" xml:space="preserve">
+    <value>Sobre</value>
+  </data>
+  <data name="Menu_ALLGraph" xml:space="preserve">
+    <value>Todos os Gráficos</value>
+  </data>
+  <data name="Menu_CurveGraphACPC" xml:space="preserve">
+    <value>Gráfico de Curva AC PC</value>
+  </data>
+  <data name="Menu_DataList" xml:space="preserve">
+    <value>Lista de Dados</value>
+  </data>
+  <data name="Menu_DayGroup" xml:space="preserve">
+    <value>Grupo Diário</value>
+  </data>
+  <data name="Menu_DayList" xml:space="preserve">
+    <value>Lista Diária</value>
+  </data>
+  <data name="Menu_DistributionGroup" xml:space="preserve">
+    <value>Grupo de Distribuição</value>
+  </data>
+  <data name="Menu_DownloadMeterReadings" xml:space="preserve">
+    <value>Baixar Leituras do Glicosímetro</value>
+  </data>
+  <data name="Menu_Exit" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="Menu_GlucoseAnalysisColumnGraph" xml:space="preserve">
+    <value>Gráfico de Coluna de Análise de Glicemia</value>
+  </data>
+  <data name="Menu_Help" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="Menu_Main" xml:space="preserve">
+    <value>Principal</value>
+  </data>
+  <data name="Menu_Meter" xml:space="preserve">
+    <value>Glicosímetro</value>
+  </data>
+  <data name="Menu_Print" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="Menu_PrintPreview" xml:space="preserve">
+    <value>Visualização de Impressão</value>
+  </data>
+  <data name="Menu_PrintSetup" xml:space="preserve">
+    <value>Configurações de Impressão</value>
+  </data>
+  <data name="Menu_Report" xml:space="preserve">
+    <value>Relatório</value>
+  </data>
+  <data name="Menu_SettingUser" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="Menu_TrendGroup" xml:space="preserve">
+    <value>Grupo de Tendência</value>
+  </data>
+  <data name="Menu_WeekGroup" xml:space="preserve">
+    <value>Grupo Semanal</value>
+  </data>
+  <data name="MerterUID" xml:space="preserve">
+    <value>序號</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="ToolTip_CurveGraphAC" xml:space="preserve">
+    <value>Gráfico de Curva AC</value>
+  </data>
+  <data name="ToolTip_CurveGraphBreakfastAC" xml:space="preserve">
+    <value>Gráfico de Curva B AC</value>
+  </data>
+  <data name="ToolTip_CurveGraphBreakfastPC" xml:space="preserve">
+    <value>Gráfico de Curva B PC</value>
+  </data>
+  <data name="ToolTip_CurveGraphDinnerAC" xml:space="preserve">
+    <value>Gráfico de Curva D AC</value>
+  </data>
+  <data name="ToolTip_CurveGraphDinnerPC" xml:space="preserve">
+    <value>Gráfico de Curva D PC</value>
+  </data>
+  <data name="ToolTip_CurveGraphLunchAC" xml:space="preserve">
+    <value>Gráfico de Curva L AC</value>
+  </data>
+  <data name="ToolTip_CurveGraphLunchPC" xml:space="preserve">
+    <value>Gráfico de Curva L PC</value>
+  </data>
+  <data name="ToolTip_CurveGraphPC" xml:space="preserve">
+    <value>Gráfico de Curva PC</value>
+  </data>
+  <data name="ToolTip_Home" xml:space="preserve">
+    <value>casa</value>
+  </data>
+  <data name="UserID" xml:space="preserve">
+    <value>CPF</value>
+  </data>
+  <data name="UserLogin" xml:space="preserve">
+    <value>nome do paciente</value>
+  </data>
+  <data name="LimiteInferior" xml:space="preserve">
+    <value>Limite Inferior:</value>
+  </data>
+  <data name="LowerNormal" xml:space="preserve">
+    <value>Normal Inferior:</value>
+  </data>
+  <data name="MeterID" xml:space="preserve">
+    <value>Glicosimetro</value>
+  </data>
+  <data name="SettingUserComm" xml:space="preserve">
+    <value>Escolha a unidade de glicemia e o valor de glicemia antes de pressionar SALVAR.</value>
+  </data>
+  <data name="SettingUserGroupComm" xml:space="preserve">
+    <value>Valor de Glicemia   Normal   E  Configuração de Limite</value>
+  </data>
+  <data name="Uperlimit" xml:space="preserve">
+    <value>Limite Superior:</value>
+  </data>
+  <data name="UperNormal" xml:space="preserve">
+    <value>Normal Superior:</value>
+  </data>
+  <data name="DownloadMeterReadingsComm" xml:space="preserve">
+    <value>Esta operação permitirá o download das leituras armazenadas no seu Sistema de Monitoramento de Glicemia e a sua inserção na base de dados.</value>
+  </data>
+  <data name="ReadingMassage" xml:space="preserve">
+    <value>Lendo mensagem...</value>
+  </data>
+  <data name="StartReading" xml:space="preserve">
+    <value>Começar Leitura</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>Passo 1</value>
+  </data>
+  <data name="Step1Comm" xml:space="preserve">
+    <value>Conecte o glicosímetro em seu computador através da interface do cabo.</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>Passo 2</value>
+  </data>
+  <data name="Step2Comm" xml:space="preserve">
+    <value>Seu glicosímetro irá ligar e mostrar [PC] antes de iniciar o download.</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>Passo 3</value>
+  </data>
+  <data name="Step3Comm" xml:space="preserve">
+    <value>Ver relatórios após o download.</value>
+  </data>
+  <data name="ACorPC" xml:space="preserve">
+    <value>AC/PC</value>
+  </data>
+  <data name="Connection" xml:space="preserve">
+    <value>conexão</value>
+  </data>
+  <data name="ConnectionIn" xml:space="preserve">
+    <value>conexão In</value>
+  </data>
+  <data name="ConnectionTest" xml:space="preserve">
+    <value>conexão Test</value>
+  </data>
+  <data name="DATADOWNLOADING" xml:space="preserve">
+    <value>Baixando Dados</value>
+  </data>
+  <data name="DATADOWNLOADING2" xml:space="preserve">
+    <value>Baixando Dados</value>
+  </data>
+  <data name="DateTime" xml:space="preserve">
+    <value>Data &amp; Hora</value>
+  </data>
+  <data name="DOWNLOADINGOK" xml:space="preserve">
+    <value>下載完成</value>
+  </data>
+  <data name="OFFLINE" xml:space="preserve">
+    <value>OFFLINE</value>
+  </data>
+  <data name="TestNo" xml:space="preserve">
+    <value>No. do Teste</value>
+  </data>
+  <data name="TheBloodGlucoseUnit" xml:space="preserve">
+    <value>mg/dl</value>
+  </data>
+  <data name="ChartAllAC" xml:space="preserve">
+    <value>TODOS AC</value>
+  </data>
+  <data name="ChartAllPC" xml:space="preserve">
+    <value>TODOS PC</value>
+  </data>
+  <data name="ChartAverageValue" xml:space="preserve">
+    <value>Valor Médio:</value>
+  </data>
+  <data name="ChartBAC" xml:space="preserve">
+    <value>B-AC</value>
+  </data>
+  <data name="ChartBPC" xml:space="preserve">
+    <value>B-PC</value>
+  </data>
+  <data name="ChartDAC" xml:space="preserve">
+    <value>D-AC</value>
+  </data>
+  <data name="ChartDPC" xml:space="preserve">
+    <value>D-PC</value>
+  </data>
+  <data name="ChartHighestValue" xml:space="preserve">
+    <value>Valor Máximo:</value>
+  </data>
+  <data name="ChartLAC" xml:space="preserve">
+    <value>L-AC</value>
+  </data>
+  <data name="ChartLowestValue" xml:space="preserve">
+    <value>Valor Mínimo:</value>
+  </data>
+  <data name="ChartLPC" xml:space="preserve">
+    <value>L-PC</value>
+  </data>
+  <data name="ChartNormal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="ChartTestTotal" xml:space="preserve">
+    <value>Totais do Teste:</value>
+  </data>
+  <data name="ChartTitle2" xml:space="preserve">
+    <value>Gráfico de Coluna de Análise de Glicemia</value>
+  </data>
+  <data name="ChartXaxis" xml:space="preserve">
+    <value>DATE</value>
+  </data>
+  <data name="ChartXaxis2" xml:space="preserve">
+    <value>Glicemia mg/dL</value>
+  </data>
+  <data name="ChartYaxis" xml:space="preserve">
+    <value>Glicemia</value>
+  </data>
+  <data name="checkboxBAC" xml:space="preserve">
+    <value>B AC</value>
+  </data>
+  <data name="checkboxBPC" xml:space="preserve">
+    <value>B PC</value>
+  </data>
+  <data name="checkboxDAC" xml:space="preserve">
+    <value>D AC</value>
+  </data>
+  <data name="checkboxDPC" xml:space="preserve">
+    <value>D PC</value>
+  </data>
+  <data name="checkboxLAC" xml:space="preserve">
+    <value>L AC</value>
+  </data>
+  <data name="checkboxLPC" xml:space="preserve">
+    <value>L PC</value>
+  </data>
+  <data name="chekboxAllAC" xml:space="preserve">
+    <value>TODOS AC</value>
+  </data>
+  <data name="chekboxAllPC" xml:space="preserve">
+    <value>TODOS PC</value>
+  </data>
+  <data name="Dayofweek" xml:space="preserve">
+    <value>Dia da Semana</value>
+  </data>
+  <data name="friday" xml:space="preserve">
+    <value>Sexta</value>
+  </data>
+  <data name="lblACAverageValue" xml:space="preserve">
+    <value>Valor Médio AC</value>
+  </data>
+  <data name="lblAChighestValue" xml:space="preserve">
+    <value>Valor Máximo AC</value>
+  </data>
+  <data name="lblACLowestValue" xml:space="preserve">
+    <value>Valor Mínimo AC</value>
+  </data>
+  <data name="lblAllAC" xml:space="preserve">
+    <value>TODOS Totais de Teste AC</value>
+  </data>
+  <data name="lblAllPC" xml:space="preserve">
+    <value>TODOS Totais de Teste PC</value>
+  </data>
+  <data name="lblPCAverageValue" xml:space="preserve">
+    <value>Valor Médio PC</value>
+  </data>
+  <data name="lblPChighestValue" xml:space="preserve">
+    <value>Valor Máximo PC</value>
+  </data>
+  <data name="lblPCLowestValue" xml:space="preserve">
+    <value>Valor Mínimo PC</value>
+  </data>
+  <data name="lblReportDate" xml:space="preserve">
+    <value>Data do Relatório:</value>
+  </data>
+  <data name="lblVISIBLE" xml:space="preserve">
+    <value>VISÍVEL:</value>
+  </data>
+  <data name="monday" xml:space="preserve">
+    <value>Segunda</value>
+  </data>
+  <data name="NoData" xml:space="preserve">
+    <value>Nenhum dado!</value>
+  </data>
+  <data name="OutTheLimit" xml:space="preserve">
+    <value>Fora do Limite</value>
+  </data>
+  <data name="OutTheNormal" xml:space="preserve">
+    <value>Fora da Faixa Normal</value>
+  </data>
+  <data name="saturday" xml:space="preserve">
+    <value>Sábado</value>
+  </data>
+  <data name="sunday" xml:space="preserve">
+    <value>Domingo</value>
+  </data>
+  <data name="TestT" xml:space="preserve">
+    <value>TestT</value>
+  </data>
+  <data name="thursday" xml:space="preserve">
+    <value>Quinta</value>
+  </data>
+  <data name="tuesday" xml:space="preserve">
+    <value>Terça</value>
+  </data>
+  <data name="wednesday" xml:space="preserve">
+    <value>Quarta</value>
+  </data>
+  <data name="langEnglish" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="langPortuguese" xml:space="preserve">
+    <value>português</value>
+  </data>
+  <data name="langTraditionalChinese" xml:space="preserve">
+    <value>繁體中文</value>
+  </data>
+  <data name="Languages" xml:space="preserve">
+    <value>idiomas</value>
+  </data>
+  <data name="btnMeterReadings" xml:space="preserve">
+    <value>Leituras do Glicosímetro</value>
+  </data>
+  <data name="btnReports" xml:space="preserve">
+    <value>Relatórios</value>
+  </data>
+  <data name="firstFormComm1" xml:space="preserve">
+    <value>Obrigado por usar o Programa de Monitoramento de Glicemia GlucoLeader, o qual foi desenhado para otimizar o controle da glicemia.</value>
+  </data>
+  <data name="firstFormComm2" xml:space="preserve">
+    <value>Este programa permite a transferência dos resultados de glicemia que estão armazenados na memória do glicosímetro diretamente para o computador através de conexão com o cabo USB.</value>
+  </data>
+  <data name="firstFormComm3" xml:space="preserve">
+    <value>Uma vez transferidos os dados de glicemia do glicosímetro para o computador, o software permite a revisão e análise dos resultados de glicemia usando uma variedade de tabelas e gráficos.</value>
+  </data>
+  <data name="firstFormComm4" xml:space="preserve">
+    <value>Ele é destinado para uso doméstico e em ambientes hospitalares para auxiliar pessoas com diabetes e profissionais da saúde na revisão, análise e avaliação do histórico de resultados de glicemia para auxiliar no controle do diabetes.</value>
+  </data>
+  <data name="firstFormComm5" xml:space="preserve">
+    <value>Se você tiver algum questionamento sobre o Programa de Monitoramento de Glicemia GlucoLeader, favor enviar mensagem para</value>
+  </data>
+  <data name="firstFormComm6" xml:space="preserve">
+    <value>service@hmdbio.com</value>
+  </data>
+  <data name="firstFormToptic" xml:space="preserve">
+    <value>Software de Monitoramento de Glicemia</value>
+  </data>
+  <data name="aboutFormToptic" xml:space="preserve">
+    <value>Software de Monitoramento de Glicemia</value>
+  </data>
+  <data name="UserBirthday" xml:space="preserve">
+    <value>D. Nasc.</value>
+  </data>
+  <data name="UserGender" xml:space="preserve">
+    <value>SEXO</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="PersonDataClear" xml:space="preserve">
+    <value>Limpar</value>
+  </data>
+  <data name="PersonDataSave" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+</root>

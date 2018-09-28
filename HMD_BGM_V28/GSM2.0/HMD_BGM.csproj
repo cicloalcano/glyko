@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{102C5AA3-47FC-4A02-B0E8-1A5AEB8462E2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GSM2._0</RootNamespace>
+    <AssemblyName>BGM2.8</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <PublishUrl>C:\inetpub\wwwroot\pu\gsm\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://linda.hmdbio.com/gp/</InstallUrl>
+    <UpdateUrl>http://linda.hmdbio.com/gp/</UpdateUrl>
+    <ProductName>GP_BGM</ProductName>
+    <PublisherName>GP_BGM</PublisherName>
+    <SuiteName>GP_BGM</SuiteName>
+    <WebPage>index.html</WebPage>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>2015.12.24.1</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>E5ABA6D0B361C929D69E57DEB01C54136D07AFA6</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>GSM2.0_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IrisSkin2, Version=2006.3.22.45, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\IrisSkin2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aboutForm.Designer.cs">
+      <DependentUpon>aboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddUser.Designer.cs">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="columnGluFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="columnGluFrom.Designer.cs">
+      <DependentUpon>columnGluFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="curveAllACFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="curveAllACFrom.Designer.cs">
+      <DependentUpon>curveAllACFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="curveAllACPCFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="curveAllACPCFrom.Designer.cs">
+      <DependentUpon>curveAllACPCFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="curveAllForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="curveAllForm.Designer.cs">
+      <DependentUpon>curveAllForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="curveAllPCForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="curveAllPCForm.Designer.cs">
+      <DependentUpon>curveAllPCForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="databaseFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="databaseFrom.Designer.cs">
+      <DependentUpon>databaseFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="daygroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="daygroup.Designer.cs">
+      <DependentUpon>daygroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceManagement.cs" />
+    <Compile Include="DeviceManagementDeclarations.cs" />
+    <Compile Include="distribution.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="distribution.Designer.cs">
+      <DependentUpon>distribution.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileIODeclarations.cs" />
+    <Compile Include="firstForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="firstForm.Designer.cs">
+      <DependentUpon>firstForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Language.cs" />
+    <Compile Include="lookbook.cs">
+      <DependentUpon>lookbook.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="lookbook.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lookbook.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SettingUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingUser.Designer.cs">
+      <DependentUpon>SettingUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="trendgroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="trendgroup.Designer.cs">
+      <DependentUpon>trendgroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="weekgroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="weekgroup.Designer.cs">
+      <DependentUpon>weekgroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hid.cs" />
+    <Compile Include="HidDeclarations.cs" />
+    <Compile Include="loginAddFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginAddFrom.Designer.cs">
+      <DependentUpon>loginAddFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginForm.Designer.cs">
+      <DependentUpon>loginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LOOK_BOOK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOOK_BOOK.Designer.cs">
+      <DependentUpon>LOOK_BOOK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainForm.Designer.cs">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule.cs" />
+    <Compile Include="menuFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuFrom.Designer.cs">
+      <DependentUpon>menuFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="referenceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="referenceForm.Designer.cs">
+      <DependentUpon>referenceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="downloadForm4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="downloadForm4.Designer.cs">
+      <DependentUpon>downloadForm4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RS232_PORT.cs" />
+    <Compile Include="SplashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashForm.Designer.cs">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="usb.cs" />
+    <EmbeddedResource Include="aboutForm.resx">
+      <DependentUpon>aboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddUser.resx">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="columnGluFrom.resx">
+      <DependentUpon>columnGluFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="curveAllACFrom.resx">
+      <DependentUpon>curveAllACFrom.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="curveAllACPCFrom.resx">
+      <DependentUpon>curveAllACPCFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="curveAllForm.resx">
+      <DependentUpon>curveAllForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="curveAllPCForm.resx">
+      <DependentUpon>curveAllPCForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="databaseFrom.resx">
+      <DependentUpon>databaseFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="daygroup.resx">
+      <DependentUpon>daygroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="distribution.resx">
+      <DependentUpon>distribution.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="firstForm.resx">
+      <DependentUpon>firstForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginAddFrom.resx">
+      <DependentUpon>loginAddFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginForm.en.resx">
+      <DependentUpon>loginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginForm.resx">
+      <DependentUpon>loginForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOOK_BOOK.resx">
+      <DependentUpon>LOOK_BOOK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainForm.resx">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuFrom.resx">
+      <DependentUpon>menuFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="referenceForm.resx">
+      <DependentUpon>referenceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="downloadForm4.resx">
+      <DependentUpon>downloadForm4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SettingUser.resx">
+      <DependentUpon>SettingUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashForm.resx">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\txt.en.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\txt.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="trendgroup.resx">
+      <DependentUpon>trendgroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\txt.pt.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\msg.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\msg.pt.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\msg.en.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="weekgroup.resx">
+      <DependentUpon>weekgroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lookbook.xsc">
+      <DependentUpon>lookbook.xsd</DependentUpon>
+    </None>
+    <None Include="lookbook.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lookbook.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="lookbook.xss">
+      <DependentUpon>lookbook.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Skins\Calmness.ssk" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\BLD.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ss-YS81016.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\測利得好輕鬆pic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\enhance RE232 pic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\測利得好輕鬆-YS81016.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\資料表.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\早午晚餐全部.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\曲線圖_飯前.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\曲線圖_飯後.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\未命名的圖片.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\D_PC.png" />
+    <Content Include="Resources\D_AC.png" />
+    <None Include="Resources\GP1.png" />
+    <None Include="Resources\GlucoLeader.png" />
+    <Content Include="Resources\L_PC.png" />
+    <Content Include="Resources\L_AC.png" />
+    <Content Include="Resources\B_PC.png" />
+    <Content Include="Resources\B_AC.png" />
+    <Content Include="Resources\Total.png" />
+    <Content Include="Resources\ACPC.png" />
+    <Content Include="Resources\ACPCcurve.png" />
+    <Content Include="Resources\AC.png" />
+    <Content Include="Resources\dataM.png" />
+    <Content Include="Resources\download.png" />
+    <Content Include="Resources\reference.png" />
+    <Content Include="Resources\head.png" />
+    <Content Include="Resources\print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\IrisSkin2.dll" />
+    <Content Include="HMDgms.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\PG_BGM icon_16.ico" />
+    <Content Include="Resources\PG_BGM icon_32.ico" />
+    <Content Include="Resources\PG_BGM icon_48.ico" />
+    <Content Include="Resources\button_review_data_over.PNG" />
+    <Content Include="Resources\button_download_data_over.PNG" />
+    <Content Include="Resources\PC.png" />
+    <Content Include="Resources\WEEK.png" />
+    <Content Include="Resources\TREND.png" />
+    <Content Include="Resources\LIST.png" />
+    <Content Include="Resources\DISTRIBUTION.png" />
+    <Content Include="Resources\DAY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="HMDgms.mdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualBasic.PowerPacks.Vs">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="zh-Hant\Microsoft.VisualBasic.PowerPacks.Vs.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

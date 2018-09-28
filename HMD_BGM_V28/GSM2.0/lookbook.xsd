@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="lookbook" targetNamespace="http://tempuri.org/lookbook.xsd" xmlns:mstns="http://tempuri.org/lookbook.xsd" xmlns="http://tempuri.org/lookbook.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="HMDgmsConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="HMDgmsConnectionString (Settings)" PropertyReference="ApplicationSettings.GSM2._0.Properties.Settings.GlobalReference.Default.HMDgmsConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable1TableAdapter" GeneratorDataComponentClassName="DataTable1TableAdapter" Name="DataTable1" UserDataComponentName="DataTable1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="HMDgmsConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT         format(gl.TestTime, 'YY-MM-DD') AS TestT, MAX(iif(isnull(a.GD0), 0, 
+                          CDBL(a.GD0))) AS Expr1, MAX(iif(isnull(a_1.GD1), 0, CDBL(a_1.GD1))) AS Expr2, 
+                          MAX(iif(isnull(a_2.GD2), 0, CDBL(a_2.GD2))) AS Expr3, MAX(iif(isnull(a_3.GD3), 
+                          0, CDBL(a_3.GD3))) AS Expr4, MAX(iif(isnull(a_4.GD4), 0, CDBL(a_4.GD4))) 
+                          AS Expr5, MAX(iif(isnull(a_5.GD5), 0, CDBL(a_5.GD5))) AS Expr6, 
+                          MAX(iif(isnull(a_6.GD6), 0, CDBL(a_6.GD6))) AS Expr7, MAX(iif(isnull(a_7.GD7), 
+                          0, CDBL(a_7.GD7))) AS Expr8, MAX(iif(isnull(a_8.GD8), 0, CDBL(a_8.GD8))) 
+                          AS Expr9
+FROM             (((((((((glucose gl LEFT OUTER JOIN
+                              (SELECT         GlucoseData AS GD0, format(TestTime, 'YY-MM-DD') 
+                                                           AS TT0
+                                FROM              glucose gl_1
+                                WHERE          (TIME_IDX = 1)) a ON a.TT0 = format(gl.TestTime, 'YY-MM-DD')) 
+                          LEFT OUTER JOIN
+                              (SELECT         GlucoseData AS GD1, format(TestTime, 'YY-MM-DD') 
+                                                           AS TT1
+                                FROM              glucose gl_2
+                                WHERE          (TIME_IDX = 2)) a_1 ON a_1.TT1 = format(gl.TestTime, 
+                          'YY-MM-DD')) LEFT OUTER JOIN
+                              (SELECT         GlucoseData AS GD2, format(TestTime, 'YY-MM-DD') 
+                                                           AS TT2
+                                FROM              glucose gl_3
+                                WHERE          (TIME_IDX = 3)) a_2 ON a_2.TT2 = format(gl.TestTime, 
+                          'YY-MM-DD')) LEFT OUTER JOIN
+                              (SELECT         GlucoseData AS GD3, format(TestTime, 'YY-MM-DD') 
+                                                           AS TT3
+                                FROM              glucose gl_4
+                                WHERE          (TIME_IDX = 4)) a_3 ON a_3.TT3 = format(gl.TestTime, 
+                          'YY-MM-DD')) LEFT OUTER JOIN
+                              (SELECT         GlucoseData AS GD4, format(TestTime, 'YY-MM-DD') 
+                                                           AS TT4
+                                FROM              glucose gl_5
+                                WHERE          (TIME_IDX = 5)) a_4 ON a_4.TT4 = format(gl.TestTime, 
+                          'YY-MM-DD')) LEFT OUTER JOIN
+                              (SELECT         GlucoseData AS GD5, format(TestTime, 'YY-MM-DD') 
+                                                           AS TT5
+                                FROM              glucose gl_6
+                                WHERE          (TIME_IDX = 6)) a_5 ON a_5.TT5 = format(gl.TestTime, 
+                          'YY-MM-DD')) LEFT OUTER JOIN
+                              (SELECT         GlucoseData AS GD6, format(TestTime, 'YY-MM-DD') 
+                                                           AS TT6
+                                FROM              glucose gl_7
+                                WHERE          (TIME_IDX = 7)) a_6 ON a_6.TT6 = format(gl.TestTime, 
+                          'YY-MM-DD')) LEFT OUTER JOIN
+                              (SELECT         GlucoseData AS GD7, format(TestTime, 'YY-MM-DD') 
+                                                           AS TT7
+                                FROM              glucose gl_8
+                                WHERE          (TIME_IDX = 8)) a_7 ON a_7.TT7 = format(gl.TestTime, 
+                          'YY-MM-DD')) LEFT OUTER JOIN
+                              (SELECT         GlucoseData AS GD8, format(TestTime, 'YY-MM-DD') 
+                                                           AS TT8
+                                FROM              glucose gl_9
+                                WHERE          (TIME_IDX = 9)) a_8 ON a_8.TT8 = format(gl.TestTime, 
+                          'YY-MM-DD'))
+GROUP BY  format(gl.TestTime, 'YY-MM-DD')
+ORDER BY  format(gl.TestTime, 'YY-MM-DD') DESC</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="TestT" DataSetColumn="TestT" />
+              <Mapping SourceColumn="Expr1" DataSetColumn="Expr1" />
+              <Mapping SourceColumn="Expr2" DataSetColumn="Expr2" />
+              <Mapping SourceColumn="Expr3" DataSetColumn="Expr3" />
+              <Mapping SourceColumn="Expr4" DataSetColumn="Expr4" />
+              <Mapping SourceColumn="Expr5" DataSetColumn="Expr5" />
+              <Mapping SourceColumn="Expr6" DataSetColumn="Expr6" />
+              <Mapping SourceColumn="Expr7" DataSetColumn="Expr7" />
+              <Mapping SourceColumn="Expr8" DataSetColumn="Expr8" />
+              <Mapping SourceColumn="Expr9" DataSetColumn="Expr9" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="lookbook" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="lookbook" msprop:Generator_UserDSName="lookbook">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TestT" msprop:Generator_ColumnVarNameInTable="columnTestT" msprop:Generator_ColumnPropNameInRow="TestT" msprop:Generator_ColumnPropNameInTable="TestTColumn" msprop:Generator_UserColumnName="TestT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Expr1" msprop:Generator_ColumnVarNameInTable="columnExpr1" msprop:Generator_ColumnPropNameInRow="Expr1" msprop:Generator_ColumnPropNameInTable="Expr1Column" msprop:Generator_UserColumnName="Expr1" type="xs:double" minOccurs="0" />
+              <xs:element name="Expr2" msprop:Generator_ColumnVarNameInTable="columnExpr2" msprop:Generator_ColumnPropNameInRow="Expr2" msprop:Generator_ColumnPropNameInTable="Expr2Column" msprop:Generator_UserColumnName="Expr2" type="xs:double" minOccurs="0" />
+              <xs:element name="Expr3" msprop:Generator_ColumnVarNameInTable="columnExpr3" msprop:Generator_ColumnPropNameInRow="Expr3" msprop:Generator_ColumnPropNameInTable="Expr3Column" msprop:Generator_UserColumnName="Expr3" type="xs:double" minOccurs="0" />
+              <xs:element name="Expr4" msprop:Generator_ColumnVarNameInTable="columnExpr4" msprop:Generator_ColumnPropNameInRow="Expr4" msprop:Generator_ColumnPropNameInTable="Expr4Column" msprop:Generator_UserColumnName="Expr4" type="xs:double" minOccurs="0" />
+              <xs:element name="Expr5" msprop:Generator_ColumnVarNameInTable="columnExpr5" msprop:Generator_ColumnPropNameInRow="Expr5" msprop:Generator_ColumnPropNameInTable="Expr5Column" msprop:Generator_UserColumnName="Expr5" type="xs:double" minOccurs="0" />
+              <xs:element name="Expr6" msprop:Generator_ColumnVarNameInTable="columnExpr6" msprop:Generator_ColumnPropNameInRow="Expr6" msprop:Generator_ColumnPropNameInTable="Expr6Column" msprop:Generator_UserColumnName="Expr6" type="xs:double" minOccurs="0" />
+              <xs:element name="Expr7" msprop:Generator_ColumnVarNameInTable="columnExpr7" msprop:Generator_ColumnPropNameInRow="Expr7" msprop:Generator_ColumnPropNameInTable="Expr7Column" msprop:Generator_UserColumnName="Expr7" type="xs:double" minOccurs="0" />
+              <xs:element name="Expr8" msprop:Generator_ColumnVarNameInTable="columnExpr8" msprop:Generator_ColumnPropNameInRow="Expr8" msprop:Generator_ColumnPropNameInTable="Expr8Column" msprop:Generator_UserColumnName="Expr8" type="xs:double" minOccurs="0" />
+              <xs:element name="Expr9" msprop:Generator_ColumnVarNameInTable="columnExpr9" msprop:Generator_ColumnPropNameInRow="Expr9" msprop:Generator_ColumnPropNameInTable="Expr9Column" msprop:Generator_UserColumnName="Expr9" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
